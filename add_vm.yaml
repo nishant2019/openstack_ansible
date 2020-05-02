@@ -4,6 +4,7 @@
   - name: Download cirros image
     get_url:
       url: https://download.cirros-cloud.net/0.3.4/cirros-0.3.4-x86_64-disk.img
+      dest: /home/cirros-0.3.4-x86_64-disk.img
   - name: Upload cirros image to openstack
     os_image:
       name: cirros
