@@ -1,9 +1,10 @@
   - name: Upload VM image to openstack
-   hosts: localhost
-   tasks:
-    os_image:
-      name: cirros_ansible
-      container_format: bare
-      disk_format: qcow2
-      state: present
-      filename: /home/user/Downloads/cirros-0.3.4-x86_64-disk.img
+    hosts: localhost
+    tasks:
+    - name: Upload cirros image to openstack
+      os_image:
+       name: cirros_ansible
+       container_format: bare
+       disk_format: qcow2
+       state: present
+       filename: /home/user/Downloads/cirros-0.3.4-x86_64-disk.img
