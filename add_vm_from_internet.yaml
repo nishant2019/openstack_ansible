@@ -1,4 +1,4 @@
-- name: Execute the Blogpost demo tasks
+- name: Add VM from internet
   hosts: localhost
   tasks:
   - name: Download cirros image
