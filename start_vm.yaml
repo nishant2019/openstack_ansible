@@ -1,7 +1,7 @@
 - name: launch an instance
   hosts: localhost
   tasks:
-    name: launch an instance
-    os_server:
-      state: present
-      name: CTF
+    - name: launch an instance
+      os_server:
+         state: present
+         name: CTF
