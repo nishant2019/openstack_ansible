@@ -1,7 +1,6 @@
 - name: Start an instance
   host : local
   tasks:
-    - name: Start an instance
     - os_server_action:
         action: start
         server: CTF
