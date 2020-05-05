@@ -5,3 +5,4 @@
       os_server:
          state: present
          name: CTF
+         boot_from_volume: True
