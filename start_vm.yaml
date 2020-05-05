@@ -6,3 +6,4 @@
          state: present
          name: CTF
          boot_from_volume: True
+         boot_volume : CTF_DISK
