@@ -1,0 +1,7 @@
+- name: Upload VM image to openstack
+    hosts: localhost
+    tasks:
+    name: launch an instance
+    os_server:
+      state: present
+      name: CTF
