@@ -1,8 +1,4 @@
-- name: launch an instance
-  hosts: localhost
-  tasks:
-    - name: launch an instance
-      os_server:
-         state: present
-         name: CTF
-         boot_volume : CTF_DISK
+- os_server_actions:
+       action: start
+       server: CTF
+       timeout: 200
