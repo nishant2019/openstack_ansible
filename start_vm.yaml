@@ -1,6 +1,6 @@
-- name: Upload VM image to openstack
-    hosts: localhost
-    tasks:
+- name: launch an instance
+  hosts: localhost
+  tasks:
     name: launch an instance
     os_server:
       state: present
