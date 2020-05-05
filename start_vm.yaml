@@ -1,6 +1,7 @@
 - name: launch an instance
   hosts: localhost
-  os_server_actions:
-       action: start
-       server: CTF
-       timeout: 200
+  tasks:
+    - os_server_actions:
+        action: start
+        server: CTF
+        timeout: 200
