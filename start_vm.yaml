@@ -2,7 +2,7 @@
   host : local
   tasks:
     - name: Start an instance
-    os_server_action:
+    - os_server_action:
         action: start
         server: CTF
         timeout: 200
