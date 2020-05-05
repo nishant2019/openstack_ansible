@@ -1,4 +1,5 @@
 - name: launch an instance
+  hosts: localhost
   os_server_actions:
        action: start
        server: CTF
