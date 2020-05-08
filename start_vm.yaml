@@ -1,5 +1,5 @@
 - name: Start an instance
-  hosts : local
+  hosts : localhost
   tasks:
     - os_server_action:
         action: start
