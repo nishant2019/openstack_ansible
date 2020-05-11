@@ -1,0 +1,7 @@
+ name: Add VM from internet
+  hosts: localhost
+  tasks:
+  - name: Download cirros image
+    get_url:
+      url: https://download.cirros-cloud.net/0.3.4/cirros-0.3.4-x86_64-disk.img
+      dest: /home/user/Documents/awx/cirros-0.3.4-x86_64-disk.img
